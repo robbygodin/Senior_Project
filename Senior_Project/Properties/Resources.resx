@@ -1,0 +1,853 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Peach_Standing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peach Standing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quarter-Arcades-Collection-Page-Banner-LOW-RES-1 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quarter-Arcades-Collection-Page-Banner-LOW-RES-1 (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Big Asteroid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Big Asteroid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="To" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\To.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peach_Left_Shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peach Left Shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luigi Standing Awkwardly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luigi Standing Awkwardly.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arcade_game_rom_neon_sign_22__64458.1610687368" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arcade_game_rom_neon_sign_22__64458.1610687368.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="15 Ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15 Ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asteroids_Neon_Sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asteroids Neon Sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bite__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bite (1).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Pew_Sound_Effect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pew Sound Effect.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Luigi_Right_Shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luigi Right Shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10 Ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10 Ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Video_Game_Death___Lose_Life_Sound_Effect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Video Game Death _ Lose Life Sound Effect.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Left Snake Head" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Left Snake Head.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mixkit_arcade_space_shooter_dead_notification_272" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mixkit-arcade-space-shooter-dead-notification-272.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Orange Square1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Orange Square1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ai5-785x430" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ai5-785x430.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="25 Ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25 Ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61yh--zRCiL1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61yh--zRCiL._SL1081_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Medium Asteroid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Medium Asteroid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peach_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peach Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue Square2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue Square2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mario WASD Gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario WASD Gold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Koopa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Koopa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arcade Title Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arcade Title Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d9nyjkq-6df1b499-1c92-4bd2-adce-78055faf40e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d9nyjkq-6df1b499-1c92-4bd2-adce-78055faf40e0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Waffle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Waffle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coollogo_com-228062724" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-228062724.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arcade Title Image3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arcade Title Image3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Robby's Arcade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Robby's Arcade1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_096436436_falling_tetris_block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\096436436-falling-tetris-block.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="bite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bite.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="_0cddde456ec00f91521996a483592299" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0cddde456ec00f91521996a483592299.pcm;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="leftZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leftZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Background.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0Arrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0Arrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue Square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45Arrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\45Arrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Doctor_P___Tetris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Doctor P - Tetris.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="coollogo_com-18025511" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-18025511.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White Right Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White Right Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luigi_Left_Shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luigi Left Shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Koopa_Shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Koopa Shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CoinBlock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CoinBlock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grey1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grey1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sample Arcade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sample Arcade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61yh--zRCiL._SL1081_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61yh--zRCiL._SL1081_.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-Mario_Series_Logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1200px-Mario_Series_Logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Max Ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Max Ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mario_with_shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario with shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-1207188345-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-1207188345-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toad_Standing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toad Standing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pac Man Background (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pac Man Background (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-Mario_Series_Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1200px-Mario_Series_Logo.svg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="61yh--zRCiL2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\61yh--zRCiL._SL1081_2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue Square1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue Square1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Title Image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Title Image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restaurant-menu-1-shadow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restaurant-menu-1-shadow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="png-clipart-golden-age-of-arcade-video-games-teenage-mutant-ninja-turtles-super-street-fighter-iv-arcade-edition-arcade-game-arcade-cabinet-arcade-game-video-game-xbox (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\png-clipart-golden-age-of-arcade-video-games-teenage-mutant-ninja-turtles-super-street-fighter-iv-arcade-edition-arcade-game-arcade-cabinet-arcade-game-video-game-xbox (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mixkit_explainer_video_game_alert_sweep_236" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mixkit-explainer-video-game-alert-sweep-236.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Left_Mario_Shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Left Mario Shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="315Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\315Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red Ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red Ghost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tetris Title Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tetris Title Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Volume on image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Volume on image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green tile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Green tile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mixkit_arcade_retro_background_219" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mixkit-arcade-retro-background-219.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="536-5364625_0-1488635277154-space-1-space-invaders-arcade-start1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\536-5364625_0-1488635277154-space-1-space-invaders-arcade-start1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="135Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\135Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pong Panel Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pong Panel Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mario Standing Awkwardly" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario Standing Awkwardly.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coollogo_com-2448597" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-2448597.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brick_Block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brick_Block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quarter-Arcades-Collection-Page-Banner-LOW-RES-1 (2)1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quarter-Arcades-Collection-Page-Banner-LOW-RES-1 (2)1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hamburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hamburger.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Future Block" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Future Block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="225Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\225Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="270Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\270Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sexy Luigi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sexy Luigi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arcade Neon Sign Title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arcade Neon Sign Title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asteroids Panel Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asteroids Panel Image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coollogo_com-34491304" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-34491304.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Original_Tetris_theme__Tetris_Soundtrack_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Original Tetris theme (Tetris Soundtrack).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Yoshi_Left_Shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yoshi Left Shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="30 Ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30 Ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-CoinMK8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1200px-CoinMK8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Untitled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retro-arcade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retro-arcade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Small Asteroid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Small Asteroid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tetris_Neon_Sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tetris Neon Sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Donut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Donut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="360_F_224483982_FapFbOly2xBHOhzuVMfeFNRTbpuTbLgg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_224483982_FapFbOly2xBHOhzuVMfeFNRTbpuTbLgg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yoshi Standing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yoshi Standing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nextM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nextM.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Videogame_Lose_Sound_Effect_HD___No_Copyright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Videogame Lose Sound Effect HD _ No Copyright.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nextSquare" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nextSquare.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake on food 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake on food 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nextOrangeL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nextOrangeL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1eeb65ecac5df5a5e491f6f7bf2cfd51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1eeb65ecac5df5a5e491f6f7bf2cfd51.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Title Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Title Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 bit apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 bit apple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Down Snake Head" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Down Snake Head.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake_Neon_Sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Neon Sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yellow Square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coollogo_com-9402363" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-9402363.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="180Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\180Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coollogo_com-2280627241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-2280627241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UFO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UFO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yoshi Celebrating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yoshi Celebrating.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mixkit_game_level_music_689" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mixkit-game-level-music-689.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Enemies Squished Mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Enemies Squished Mario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luigi_Left_Shell_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luigi Left Shell 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue Panel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue Panel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Transparent Ship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Transparent Ship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Welcome" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Welcome.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arcade-machine-screen-allan-swart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arcade-machine-screen-allan-swart.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arcade Neon Sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arcade Neon Sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Green Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Green Square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArtTutor GridPic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArtTutor GridPic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White Right Arrow1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White Right Arrow1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fdsaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fdsaf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coollogo_com-171631259" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-171631259.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rightZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rightZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="223-2238299_mario-sprite-by-flamingdragon5000-mario-8-bit-png1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\223-2238299_mario-sprite-by-flamingdragon5000-mario-8-bit-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Orange Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Orange Square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Book_flip_Open__Nr__2___Minecraft_Sound____Sound_Effect_for_editing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book flip Open (Nr. 2 _ Minecraft Sound) - Sound Effect for editing.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Res Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Res Square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Left_Mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Left Mario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Destroyed Ship1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Destroyed Ship1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yoshi Running" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yoshi Running.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 bit taco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 bit taco.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coollogo_com-34471317" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-34471317.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2-retro-80s-90s-neon-arcade-machine-arcade-cabinet-yestic-transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2-retro-80s-90s-neon-arcade-machine-arcade-cabinet-yestic-transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake on food 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake on food 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mute Image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mute Image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MarioCoinSound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MarioCoinSound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Yoshi_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yoshi Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pacman sample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pacman sample.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pong Title Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pong Title Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toad_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toad Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="90Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\90Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peach_Right_Shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peach Right Shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Sandwich" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Sandwich.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pong_Neon_Sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pong Neon Sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg-tetris-10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg-tetris-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yoshi_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yoshi Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WallHit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WallHit.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nextLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nextLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Peach_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peach Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Hot Dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Hot Dog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coins Earned Mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coins Earned Mario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toad_Left_Shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toad Left Shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coollogo_com-1716312591" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coollogo_com-1716312591.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brick_Block2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brick_Block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8 bit popcorn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8 bit popcorn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Up Snake Head" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Up Snake Head.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arcade Title Image2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arcade Title Image2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ship - Copy (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ship - Copy (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Coins Earned Mairo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Coins Earned Mairo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Left White Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Left White Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arcade Title Image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arcade Title Image1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Pancake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Pancake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mario_Title_Sign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario Title Sign.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Right Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Right Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pac Man" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pac Man.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Ice Cream" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Ice Cream.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WASD" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WASD.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ding.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="White Up Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White Up Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hard Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hard Square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="supermariothumbsup_800x400" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\supermariothumbsup-800x400.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bite__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bite (2).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Tetris Panel Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tetris Panel Image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="45Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\45Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake on food" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake on food.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue Panel1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue Panel1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mario_Title_Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario Title Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="20 Ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20 Ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asteroid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asteroid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audiomass_output" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audiomass-output.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Robby's Arcade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Robby's Arcade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d9nyjkq-6df1b499-1c92-4bd2-adce-78055faf40e01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d9nyjkq-6df1b499-1c92-4bd2-adce-78055faf40e01.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Videogame_Death_Sound_Effect_HD__No_Copyright" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Videogame Death Sound Effect HD  No Copyright.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ArtTutor GridPic (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArtTutor GridPic (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yoshi_Right_Shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yoshi Right Shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Sushi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Sushi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Asteroids Title Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Asteroids Title Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Arcade Neon Sign last" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Arcade Neon Sign last.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red Ghost1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red Ghost1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mute Image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mute Image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mario Standing Awkwardly1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario Standing Awkwardly1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue Ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue Ghost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="223-2238299_mario-sprite-by-flamingdragon5000-mario-8-bit-png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\223-2238299_mario-sprite-by-flamingdragon5000-mario-8-bit-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Steel Door" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Steel Door.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grass" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grass.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bullet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bullet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="retro-arcade1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retro-arcade1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luigi_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luigi Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Body" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Body.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mario_Title_Sign_Resized" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario Title Sign Resized.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="press-release-snake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\press-release-snake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Snake Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Snake Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Temp Arcade Title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Temp Arcade Title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue Back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue Back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Select a character mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Select a character mario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pink Square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luigi_Right_Shell_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luigi Right Shell 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5 Ball" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5 Ball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yellow Ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yellow Ghost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UFO1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\UFO1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Right Snake Head" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Right Snake Head.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Quarter-Arcades-Collection-Page-Banner-LOW-RES-1 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Quarter-Arcades-Collection-Page-Banner-LOW-RES-1 (2).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ArtTutor GridPic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ArtTutor GridPic1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink Ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pink Ghost.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toad_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toad Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audiomass_output__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audiomass-output (1).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Video_Game_Beep___Sound_Effect" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Video Game Beep - Sound Effect.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="536-5364625_0-1488635277154-space-1-space-invaders-arcade-start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\536-5364625_0-1488635277154-space-1-space-invaders-arcade-start.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brick_Block1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Brick_Block.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Celebrating Mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Celebrating Mario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="96d85c7ab7e8eb0a61c84be58c363660" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\96d85c7ab7e8eb0a61c84be58c363660.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Luigi_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Luigi Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toad_Right_Shell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toad Right Shell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Toad_Celebrating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toad Celebrating.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Purple Square" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Purple Square.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Users" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Users.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Peach_Celebrating" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Peach Celebrating.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nextBlueL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nextBlueL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ship Fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ship Fire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="audiomass_output__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\audiomass-output (2).wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Toad_Left_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Toad Left 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Destroyed Ship" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Destroyed Ship.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_Mario_Bros__Theme_Song" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super Mario Bros. Theme Song.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="1200px-CoinMK81" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1200px-CoinMK81.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2-retro-80s-90s-neon-arcade-machine-arcade-cabinet-yestic-transparent1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2-retro-80s-90s-neon-arcade-machine-arcade-cabinet-yestic-transparent1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="birds-flying-8-bit-minimal-4k-ix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\birds-flying-8-bit-minimal-4k-ix.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

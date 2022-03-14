@@ -1,0 +1,816 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BAD9DD11-B16D-429B-8B8F-483BB87E1B43}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Senior_Project</RootNamespace>
+    <AssemblyName>Senior_Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Runtime.DurableInstancing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Asteroids.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Asteroids.Designer.cs">
+      <DependentUpon>Asteroids.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mario.Designer.cs">
+      <DependentUpon>Mario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewSplash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewSplash.Designer.cs">
+      <DependentUpon>NewSplash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PacMan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PacMan.Designer.cs">
+      <DependentUpon>PacMan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pong.Designer.cs">
+      <DependentUpon>Pong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Class1.cs" />
+    <Compile Include="ScreenCanvas.cs" />
+    <Compile Include="Snake.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Snake.Designer.cs">
+      <DependentUpon>Snake.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.cs">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stacker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stacker.Designer.cs">
+      <DependentUpon>Stacker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StopWatch.cs" />
+    <Compile Include="Tetris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tetris.Designer.cs">
+      <DependentUpon>Tetris.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Asteroids.resx">
+      <DependentUpon>Asteroids.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mario.resx">
+      <DependentUpon>Mario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewSplash.resx">
+      <DependentUpon>NewSplash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PacMan.resx">
+      <DependentUpon>PacMan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pong.resx">
+      <DependentUpon>Pong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Snake.resx">
+      <DependentUpon>Snake.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stacker.resx">
+      <DependentUpon>Stacker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tetris.resx">
+      <DependentUpon>Tetris.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0cddde456ec00f91521996a483592299.pcm" />
+    <None Include="Resources\Left White Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Right Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Up Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Temp Arcade Title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake Title.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right Snake Head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake Body.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WASD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hamburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Down Snake Head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left Snake Head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Up Snake Head.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Panel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5 Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10 Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15 Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20 Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\25 Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\30 Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Max Ball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Panel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pac Man Background %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ai5-785x430.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pacman sample.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Ghost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pink Ghost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Ghost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow Ghost.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pac Man.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pong Panel Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sample Arcade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Purple Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tetris Panel Image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hard Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Square1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Orange Square1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Yellow Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextBlueL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextOrangeL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextSquare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pink Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg-tetris-10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Red Ghost1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Res Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leftZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rightZ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArtTutor GridPic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArtTutor GridPic1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arcade_game_rom_neon_sign_22__64458.1610687368.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61yh--zRCiL._SL1081_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61yh--zRCiL._SL1081_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-retro-80s-90s-neon-arcade-machine-arcade-cabinet-yestic-transparent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-retro-80s-90s-neon-arcade-machine-arcade-cabinet-yestic-transparent1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\61yh--zRCiL._SL1081_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quarter-Arcades-Collection-Page-Banner-LOW-RES-1 %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\retro-arcade.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\retro-arcade1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quarter-Arcades-Collection-Page-Banner-LOW-RES-1 %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quarter-Arcades-Collection-Page-Banner-LOW-RES-1 %282%291.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arcade-machine-screen-allan-swart.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_224483982_FapFbOly2xBHOhzuVMfeFNRTbpuTbLgg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-golden-age-of-arcade-video-games-teenage-mutant-ninja-turtles-super-street-fighter-iv-arcade-edition-arcade-game-arcade-cabinet-arcade-game-video-game-xbox %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\536-5364625_0-1488635277154-space-1-space-invaders-arcade-start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\536-5364625_0-1488635277154-space-1-space-invaders-arcade-start1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ArtTutor GridPic %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Right Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White Right Arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\45Arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\90Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\135Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\180Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\225Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\270Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\315Arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0Arrow1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asteroid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bullet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyed Ship.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyed Ship1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asteroids Panel Image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ship - Copy %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Big Asteroid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medium Asteroid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Small Asteroid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ship Fire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UFO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UFO1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake Background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\press-release-snake.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake on food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake on food 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake on food 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arcade Title Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arcade Title Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arcade Title Image2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake Title Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pong Title Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arcade Title Image3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tetris Title Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Asteroids Title Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Snake Title Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Robby%27s Arcade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\To.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Welcome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Robby%27s Arcade1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Future Block.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctor P - Tetris.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Doctor P - Tetris.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Original Tetris theme %28Tetris Soundtrack%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\096436436-falling-tetris-block.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Video Game Death _ Lose Life Sound Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Videogame Lose Sound Effect HD _ No Copyright.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pew Sound Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mixkit-explainer-video-game-alert-sweep-236.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mixkit-arcade-space-shooter-dead-notification-272.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Videogame Death Sound Effect HD  No Copyright.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bite.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bite %281%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bite %282%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Video Game Beep - Sound Effect.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book flip Open %28Nr. 2 _ Minecraft Sound%29 - Sound Effect for editing.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ding.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grey1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mixkit-arcade-retro-background-219.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audiomass-output.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mixkit-game-level-music-689.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audiomass-output %281%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\audiomass-output %282%29.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Blue Square2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fdsaf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WallHit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-CoinMK8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-CoinMK81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Background.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-171631259.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-1716312591.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-2448597.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-34491304.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-9402363.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-34471317.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-228062724.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-18025511.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coollogo_com-2280627241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1207188345-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steel Door.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\96d85c7ab7e8eb0a61c84be58c363660.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\223-2238299_mario-sprite-by-flamingdragon5000-mario-8-bit-png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d9nyjkq-6df1b499-1c92-4bd2-adce-78055faf40e0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d9nyjkq-6df1b499-1c92-4bd2-adce-78055faf40e01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Koopa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Koopa Shell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brick_Block.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario with shell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left Mario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left Mario Shell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Mario_Series_Logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1200px-Mario_Series_Logo.svg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1eeb65ecac5df5a5e491f6f7bf2cfd51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Super Mario Bros. Theme Song.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CoinBlock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supermariothumbsup-800x400.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coins Earned Mario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coins Earned Mairo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemies Squished Mario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario Title Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mario WASD Gold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mute Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volume on image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mute Image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\MarioCoinSound.wav" />
+    <None Include="Resources\birds-flying-8-bit-minimal-4k-ix.jpg" />
+    <None Include="Resources\8 bit apple.png" />
+    <None Include="Resources\8 bit popcorn.png" />
+    <None Include="Resources\Snake Sandwich.png" />
+    <None Include="Resources\8 bit taco.png" />
+    <None Include="Resources\Snake Sushi.png" />
+    <None Include="Resources\Snake Donut.png" />
+    <None Include="Resources\Snake Hot Dog.png" />
+    <None Include="Resources\Snake Waffle.png" />
+    <None Include="Resources\Snake Ice Cream.png" />
+    <None Include="Resources\Snake Pancake.png" />
+    <None Include="Resources\Transparent Ship.png" />
+    <None Include="Resources\Luigi Left Shell 2.png" />
+    <None Include="Resources\Luigi Right Shell 2.png" />
+    <None Include="Resources\Select a character mario.png" />
+    <None Include="Resources\Peach Right.png" />
+    <None Include="Resources\Peach Left.png" />
+    <None Include="Resources\Peach Right Shell.png" />
+    <None Include="Resources\Peach Left Shell.png" />
+    <None Include="Resources\Toad Left 2.png" />
+    <None Include="Resources\Toad Left.png" />
+    <None Include="Resources\Toad Right Shell.png" />
+    <None Include="Resources\Toad Left Shell.png" />
+    <None Include="Resources\Toad Right.png" />
+    <None Include="Resources\Yoshi Right.png" />
+    <None Include="Resources\Yoshi Left.png" />
+    <None Include="Resources\Yoshi Right Shell.png" />
+    <None Include="Resources\Yoshi Left Shell.png" />
+    <None Include="Resources\Luigi Left Shell.png" />
+    <None Include="Resources\Luigi Right Shell.png" />
+    <None Include="Resources\Luigi Left.png" />
+    <None Include="Resources\Luigi Right.png" />
+    <None Include="Resources\Peach Standing.png" />
+    <None Include="Resources\Peach Celebrating.png" />
+    <None Include="Resources\Toad Celebrating.png" />
+    <None Include="Resources\Toad Standing.png" />
+    <None Include="Resources\Yoshi Celebrating.png" />
+    <None Include="Resources\Yoshi Running.png" />
+    <None Include="Resources\Yoshi Standing.png" />
+    <None Include="Resources\Sexy Luigi.png" />
+    <None Include="Resources\Luigi Standing Awkwardly.png" />
+    <None Include="Resources\Mario Standing Awkwardly1.png" />
+    <None Include="Resources\Celebrating Mario.png" />
+    <None Include="Resources\Mario Standing Awkwardly.png" />
+    <None Include="Resources\Blue Back.png" />
+    <None Include="Resources\Mario Title Sign Resized.png" />
+    <None Include="Resources\Asteroids Neon Sign.png" />
+    <None Include="Resources\Snake Neon Sign.png" />
+    <None Include="Resources\Pong Neon Sign.png" />
+    <None Include="Resources\Tetris Neon Sign.png" />
+    <None Include="Resources\Mario Title Sign.png" />
+    <None Include="Resources\Arcade Neon Sign last.png" />
+    <None Include="Resources\Arcade Neon Sign.png" />
+    <None Include="Resources\Arcade Neon Sign Title.png" />
+    <None Include="Resources\MarioCoinSound.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
